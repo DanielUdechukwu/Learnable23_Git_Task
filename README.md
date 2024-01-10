@@ -1,7 +1,8 @@
 # Git Task
 
 ## Table Of Contents
-- [Git & GitHub](#Difference)
+- [Version control](#version-contol)
+- [Difference between Git and GitHub](#difference-between-git-and-github)
 
 ## Version Control
 Version control is a process of creating different instances of a project in order to track changes in the project. Version control also allows us to rollback to a previous version in case of any issues with the project. With version control, different people can contribute to the project at once.
