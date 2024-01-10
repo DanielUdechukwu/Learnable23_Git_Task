@@ -26,4 +26,10 @@ __Git Pull:__ Git Pull combines two commands into one command, which is the `Git
 
 While they're similar, the former is used mostly when we want to review a new update before merging with what we have, while the latter is used to automatically retrieve and merge. 
 
-## 
+## Git Rebase 
+Git rebase is basically a command that combines a sequence of commits to a new base. It is basically taking your changes in another branch and stacking it on top of the .changes already made to the other branch in a logical order. It makes the codebase cleaner and easier to find where an issue is coming from. 
+
+### Git Rebase Command
+```
+git rebase <base>
+```
