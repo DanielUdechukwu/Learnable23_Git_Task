@@ -3,6 +3,12 @@
 ## Table Of Contents
 - [Version control](#version-contol)
 - [Difference between Git and GitHub](#difference-between-git-and-github)
+- [Git & GitHub Alternatives](Git--gitHub-alternatives)
+- [Difference Between Git Fetch & Git Pull](difference-between-git-fetch--git-pull)
+- [Git Rebase](git-rebase)
+  - [Git Rebase Command](git-rebase-command)
+- [Git Cherry-pick](git-cherry-pick)
+  - [Git Cherry-pick Command](git-cherry-pick-command)
 
 ## Version Control
 Version control is a process of creating different instances of a project in order to track changes in the project. Version control also allows us to rollback to a previous version in case of any issues with the project. With version control, different people can contribute to the project at once.
@@ -43,7 +49,9 @@ Git cherry-pick is also similar to Git rebase, with the difference being that re
 
 ```
 git cherry-pick <commit-hash>
+
 or
+
 git cherry-pick <branch-name>^
 
 ```
