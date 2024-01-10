@@ -13,5 +13,15 @@ __GitHub__ on the other hand is a remote repository used to house our code sourc
 
 While both are different, and can work independently, they mostly are used side by side, because as a unit, its a powerful tool in the hands of a developper.
 
-bitbucket, mecurial, perforce
-github, gitlab, gitkraken, Azure Devops
+## Git & GitHub Alternatives
+__Git Alternatives:__ Mecurial, Perforce, BitBucket
+__GitHub Alternatives:__ GitLab, GitKraken, Azure Devops
+
+
+## Difference Between Git Fetch & Git Pull
+__Git Fetch:__ This is a git command that is used for getting the updates from the remote to local. This command is used when you don't want to integrate the changes immediately. 
+__Git Pull:__ Git Pull combines two commands into one command, which is the ==Git Fetch== and the ==Git Merge==. It first fetches the changes and then automatically merges them to the codebase in the local. 
+
+While they're similar, the former is used mostly when we want to review a new update before merging with what we have, while the latter is used to automatically retrieve and merge. 
+
+## 
