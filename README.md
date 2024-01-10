@@ -29,7 +29,22 @@ While they're similar, the former is used mostly when we want to review a new up
 ## Git Rebase 
 Git rebase is basically a command that combines a sequence of commits to a new base. It is basically taking your changes in another branch and stacking it on top of the .changes already made to the other branch in a logical order. It makes the codebase cleaner and easier to find where an issue is coming from. 
 
-### Git Rebase Command
+#### Git Rebase Command
 ```
 git rebase <base>
 ```
+
+## Git Cherry-pick
+Git cherry-pick is a useful command that enbles commands to be picked and appended to the current working branch/HEAD. Assuming we have branch A, which is the main, and branch B, which can be a feature branch, we can cherry-pick a particular commit from branch B and append it to branch A.
+
+Git cherry-pick is also similar to Git rebase, with the difference being that rebase appends every commit in the selected branch and appends it to the current branch, while cherry-pick picks out particular commits from the branch and appends it to the current branch
+
+#### Git Cherry-pick Command
+
+```
+git cherry-pick <commit-hash>
+or
+git cherry-pick <branch-name>^
+
+```
+The caret selects the last commit in the particular branch
