@@ -50,8 +50,11 @@ Git cherry-pick is also similar to Git rebase, with the difference being that re
 ```
 git cherry-pick <commit-hash>
 
+```
+
 or
 
+```
 git cherry-pick <branch-name>^
 
 ```
