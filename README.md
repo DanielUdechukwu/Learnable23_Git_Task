@@ -28,7 +28,7 @@ __GitHub Alternatives:__ GitLab, GitKraken, Azure Devops
 ## Difference Between Git Fetch & Git Pull
 __Git Fetch:__ This is a git command that is used for getting the updates from the remote to local. This command is used when you don't want to integrate the changes immediately.
 
-__Git Pull:__ Git Pull combines two commands into one command, which is the `Git Fetch` and the `Git Merge`. It first fetches the changes and then automatically merges them to the codebase in the local. 
+__Git Pull:__ Git Pull combines two commands into one command, which is the `git fetch` and the `git merge`. It first fetches the changes and then automatically merges them to the codebase in the local. 
 
 While they're similar, the former is used mostly when we want to review a new update before merging with what we have, while the latter is used to automatically retrieve and merge. 
 
