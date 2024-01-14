@@ -21,7 +21,7 @@ __GitHub__ on the other hand is a remote repository used to house our code sourc
 While both are different, and can work independently, they mostly are used side by side, because as a unit, its a powerful tool in the hands of a developper.
 
 ## Git & GitHub Alternatives
-__Git Alternatives:__ Mecurial, Perforce, BitBucket
+__Git Alternatives:__ Mecurial, Perforce, BitBucket <br>
 __GitHub Alternatives:__ GitLab, GitKraken, Azure Devops
 
 
@@ -49,10 +49,11 @@ Git cherry-pick is also similar to Git rebase, with the difference being that re
 
 ```
 git cherry-pick <commit-hash>
+```
 
 or
 
+```
 git cherry-pick <branch-name>^
-
 ```
 The caret selects the last commit in the particular branch
